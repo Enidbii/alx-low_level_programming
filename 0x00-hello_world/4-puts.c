@@ -3,7 +3,7 @@
 /*
  * main - entry point
  *
- * Description: prints a string followed by a new line
+ * description: prints a string followed by a new line
  *
  * Return: Always 0 (Success)
  */
