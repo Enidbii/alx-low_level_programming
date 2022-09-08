@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-/*
+/**
  * main - entry point
- *
- * description: prints a string followed by a new line
  *
  * Return: Always 0 (Success)
  */
