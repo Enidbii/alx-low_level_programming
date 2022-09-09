@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Prints both lowercase and uppercase alphabet
  * when executed
  *
@@ -10,7 +9,7 @@
 int main(void)
 {
 	char c;
-	
+
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
 	for (c = 'A'; c <= 'Z'; c++)
