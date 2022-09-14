@@ -25,6 +25,5 @@ int print_sign(int n)
 		ret_urn = 0;
 		_putchar('0');
 	}
-	_putchar('\n');
 	return (ret_urn);
 }
