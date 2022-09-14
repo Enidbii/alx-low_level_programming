@@ -14,7 +14,7 @@ int print_sign(int n)
 		ret_urn == 1;
 		_putchar('+');
 	}
-	elseif (n < 0)
+	else if (n < 0)
 	{
 		ret_urn == -1;
 		_putchar('-1');
@@ -24,5 +24,5 @@ int print_sign(int n)
 		ret_urn == 0;
 		_putchar('0');
 	}
-	return(ret_urn);
+	return (ret_urn);
 }
