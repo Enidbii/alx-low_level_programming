@@ -18,6 +18,6 @@ int _isalpha(int c)
 			if (c == low || c == upp)
 				ret_urn = 1;
 		}
-		return (ret_urn);
+		return(ret_urn);
 	}
 }
