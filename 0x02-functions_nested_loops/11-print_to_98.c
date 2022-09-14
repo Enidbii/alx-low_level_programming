@@ -8,15 +8,11 @@
  */
 void print_to_98(int n)
 {
-	if (n <= 98)
+	while (n > 98 || n < 98)
 	{
-		_putchar(n + ' ');
-		n++;
-	}
-	else if (n <= 98)
-	{
-		_putchar(n + ' ');
-		n--;
+		if (n == 98)
+			_putchar(98);
+		_putchar((n + 1), ' ');
 	}
 	_putchar('\n');
 }
