@@ -19,5 +19,5 @@ int _isalpha(int c)
 				ret_urn = 1;
 		}
 	}
-	return(ret_urn);
+	return (ret_urn);
 }
