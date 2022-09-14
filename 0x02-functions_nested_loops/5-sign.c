@@ -18,12 +18,13 @@ int print_sign(int n)
 	else if (n < 0)
 	{
 		ret_urn = -1;
-		_putchar('-1');
+		_putchar('-');
 	}
 	else
 	{
 		ret_urn = 0;
 		_putchar('0');
 	}
+	_putchar('\n');
 	return (ret_urn);
 }
