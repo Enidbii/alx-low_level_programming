@@ -2,7 +2,7 @@
 
 /**
  *  _strspn - gets the length of a prefix
- *  @s: pointer 
+ *  @s: pointer
  *  @accept: pointer
  *  Return: number of bytes
  */
@@ -15,13 +15,13 @@ unsigned int _strspn(char *s, char *accept)
 	str1 = s;
 	str2 = accept;
 
-	i= 0;
+	i = 0;
 	while (str1[i] != '\0')
 	{
 		j = 0;
 		while (str2[j] != '\0')
 		{
-			if (str2[j] == str1[i])
+			if (str2[j] == stri1[i])
 			{
 				ct++;
 				break;
@@ -34,5 +34,5 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		i++;
 	}
-	return(ct);
+	return (ct);
 }
