@@ -21,7 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 		j = 0;
 		while (str2[j] != '\0')
 		{
-			if (str2[j] == stri1[i])
+			if (str2[j] == str1[i])
 			{
 				ct++;
 				break;
