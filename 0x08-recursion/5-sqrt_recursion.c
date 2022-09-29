@@ -11,10 +11,17 @@ int _sqrt_recursion(int n)
 
 	if (i == 0 || i == 1)
 		return (n);
-	else if (i * i == n)
+	else
+		return (evaluate(n, i + 1));
+}
+int evaluate(int n, int i)
+{
+	if (n / i == i)
 	{
 		return (i);
 	}
-	else
-		return (_sqrt_recursion(n));
+	else if (n / i != i)
+	{
+		return (evaluate(n, i + 1));
+	}
 }
