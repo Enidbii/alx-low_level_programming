@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 
-	if (argv[i] > 0)
+	if (argc > 0)
 	{
 		for (i = 0; i <= argv[i]; i++)
 		{
