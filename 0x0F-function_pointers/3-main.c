@@ -21,8 +21,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	c = get_op_func(argv[2]);
-	if (c == NULL)
+	d = get_op_func(argv[2]);
+	if (d == NULL)
 	{
 		printf("Error\n");
 		exit(99);
