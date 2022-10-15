@@ -67,8 +67,10 @@ void print_all(const char * const format, ...)
 		{"s", print_s},
 		{NULL, NULL}
 	};
-	va_start(list, format)
-		separator = " ";
+
+	va_start(list, format);
+
+	separator = "";
 
 	k = 0;
 	while (format != NULL && format[k] != '\0')
