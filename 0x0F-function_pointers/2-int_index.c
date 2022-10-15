@@ -18,7 +18,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 		k = 1;
 		while (k <= size)
 		{
-			hesabu = cmp(array[i]);
+			hesabu = cmp(array[k]);
 			if (hesabu != 0)
 			{
 				return (k);
