@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "variadic_functions.h"
 
 /**
  * print_c - prints character
