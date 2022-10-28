@@ -12,7 +12,7 @@ void free_listint2(listint_t **head)
 
 	if (head == NULL)
 	{
-		then_mem = head;
+		then_mem = *head;
 		while ((now_memory = then_mem) != NULL)
 		{
 			then_mem = then_mem->next;

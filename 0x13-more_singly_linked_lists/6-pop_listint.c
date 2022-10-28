@@ -9,7 +9,7 @@ int pop_listint(listint_t **head)
 {
 	int start_node;
 	listint_t *h;
-	listint_t memory;
+	listint_t *memory;
 
 	if (*head == NULL)
 		return (0);
