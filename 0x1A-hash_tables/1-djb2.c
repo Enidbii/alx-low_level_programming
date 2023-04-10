@@ -1,4 +1,5 @@
-#include "hash_tables"
+#include "hash_tables.h"
+#include <string.h>
 
 /**
  * hash_djb2 - implementation of the djb2 algorithm
