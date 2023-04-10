@@ -23,7 +23,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	index = key_index((const unsigned char *)key, ht->size);
 	for (j = index; ht->array[j]; j++)
 	{
-		if (strtcmp(ht->array[j]->key, key) == 0)
+		if (strcmp(ht->array[j]->key, key) == 0)
 		{
 			free(ht->array[j]->value);
 			ht->array[j]->value = valrec;
