@@ -33,13 +33,13 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	items = malloc(sizeof(hash_node_t));
 	if (items == NULL)
 	{
-		free(items);
+		free(valrec);
 		return (0);
 	}
 	items->key = strdup(key);
 	if (items->key == NULL)
 	{
-		free(items->key);
+		free(items);
 		return (0);
 	}
 	items->value = valrec;
