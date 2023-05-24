@@ -6,4 +6,4 @@ OBJ = main.o school.o m.o
 NAME = school
 
 all: $(OBJ) m.h
-	$(SRC) $(SRC) -o NAME 
+	$(SRC) $(SRC) -o $(NAME)
