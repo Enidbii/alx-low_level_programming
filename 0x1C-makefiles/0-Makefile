@@ -1,9 +1,4 @@
+# automates compilation of a c program
 
-school: main.o school.o
-	gcc main.o school.c -o school
-
-main.o: main.c
-	gcc -c main.c
-
-school.o: school.c m.h
-	gcc -c school.c
+all: main.c school.c m.h
+	gcc main.c school.c -o school
