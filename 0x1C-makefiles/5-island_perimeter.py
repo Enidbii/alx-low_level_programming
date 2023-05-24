@@ -20,7 +20,7 @@ def island_perimeter(grid):
             if grid[i][j] == 1:
                 cel_height += 1
                 if (j > 0 and grid[i][j - 1] == 1):
-                    cel_length+= 1
+                    cel_length += 1
                 if (i > 0 and grid[i - 1][j] == 1):
                     cel_length += 1
     return cel_height * 4 - cel_length * 2
